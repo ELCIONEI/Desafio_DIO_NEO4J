@@ -1,0 +1,17 @@
+﻿usuario_id,musica_id,vezes,curtiu
+1,101,15,true
+1,103,8,true
+1,104,4,false
+2,101,20,true
+2,102,12,true
+2,103,10,true
+2,110,18,true
+3,104,25,true
+3,105,14,true
+3,106,9,true
+4,107,30,true
+4,108,15,true
+4,109,11,true
+5,104,10,true
+5,106,7,true
+5,101,5,true
