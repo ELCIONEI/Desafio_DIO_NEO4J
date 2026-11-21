@@ -59,4 +59,4 @@ O banco foi modelado com **4 Labels de Nós** (`Usuario`, `Musica`, `Artista`, `
 ![Ranking de Popularidade](images/ranking_populares.png)
 
 ## Troubleshooting (Dificuldades e Soluções)
-* **Erro `22N43: Data exception - unable to load external resource`:** Ao rodar o comando `LOAD CSV`, o Neo4j não encontrou os arquivos `.csv`. **Solução:** O Neo4j restringe a leitura local por segurança à subpasta `import` interna da instância ativa. Copiando os arquivos de `data/` para o diretório `import` da instância, a carga foi concluída com sucesso (25 nós e 51 relacionamentos).
+* **Erro `22N43: Data exception - unable to load external resource`:** Ao rodar o comando `LOAD CSV`, se Neo4j não encontrar os arquivos `.csv`. **Solução:** O Neo4j restringe a leitura local por segurança à subpasta `import` interna da instância ativa. Copie os arquivos de `data/` para o diretório `import` da instância, a carga será concluída com sucesso (25 nós e 51 relacionamentos).
