@@ -6,6 +6,8 @@ Projeto desenvolvido para o desafio prático da **DIO**, com foco em modelagem d
 
 Sistemas de recomendação tradicionais em bancos relacionais (SQL) exigem múltiplos `JOINs` custosos para cruzar usuários, histórico de reprodução, curtidas, artistas e gêneros. Em um banco de dados orientado a grafos como o **Neo4j**, os relacionamentos são armazenados nativamente, permitindo percorrer conexões complexas (como _filtragem colaborativa_) em milissegundos e com consultas muito mais legíveis.
 
+![Certificado Neo4j](images/certificado_neo4j.png)
+
 ## Modelo do Grafo
 
 O banco foi modelado com **4 Labels de Nós** (`Usuario`, `Musica`, `Artista`, `Genero`) e **4 Tipos de Relacionamentos** (`ESCUTOU`, `CURTIU`, `CANTADA_POR`, `PERTENCE_A`).
@@ -46,8 +48,6 @@ O banco foi modelado com **4 Labels de Nós** (`Usuario`, `Musica`, `Artista`, `
 ### 1. Filtragem Colaborativa (Recomendação por Usuários Similares)
 
 _Pergunta:_ Quais músicas recomendar para a usuária **Ana** com base no que outros usuários com gostos em comum curtiram, mas que ela ainda não ouviu?
-
-![Certificado Neo4j](images/certificado_neo4j.png)
 
 **Resultado em Tabela:**
 ![Recomendação em Tabela](images/recomendacao_tabela.png)
