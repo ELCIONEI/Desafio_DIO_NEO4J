@@ -56,7 +56,7 @@ _Pergunta:_ Quais músicas recomendar para a usuária **Ana** com base no que ou
 
 _Pergunta:_ Quais faixas pertencem aos mesmos gêneros que a Ana já curtiu e que ainda não estão no seu histórico?
 
-![Recomendação por Gênero](images/recomendacao_genero.png)
+![Recomendação por Gênero](images/mais_curtidas_de_Ana.png)
 
 ### 3. Ranking de Popularidade
 
