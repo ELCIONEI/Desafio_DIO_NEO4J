@@ -8,13 +8,13 @@ Sistemas de recomendação tradicionais em bancos relacionais (SQL) exigem múlt
 
 ![Certificado Neo4j](images/certificado_neo4j.png)
 
-## Modelo do Grafo
+## Visão do Banco Populado
 
 O banco foi modelado com **4 Labels de Nós** (`Usuario`, `Musica`, `Artista`, `Genero`) e **4 Tipos de Relacionamentos** (`ESCUTOU`, `CURTIU`, `CANTADA_POR`, `PERTENCE_A`).
 
 ![Esquema do Grafo](images/esquema_grafo.png)
 
-### Visão do Banco Populado
+### Visão do Banco 
 
 ![Banco Populado](images/banco_populado.png)
 
