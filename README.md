@@ -49,9 +49,6 @@ O banco foi modelado com **4 Labels de Nós** (`Usuario`, `Musica`, `Artista`, `
 
 _Pergunta:_ Quais músicas recomendar para a usuária **Ana** com base no que outros usuários com gostos em comum curtiram, mas que ela ainda não ouviu?
 
-**Resultado em Tabela:**
-![Recomendação em Tabela](images/recomendacao_tabela.png)
-
 **Visualização em Grafo:**
 ![Recomendação em Grafo](images/recomendacao_grafo.png)
 
